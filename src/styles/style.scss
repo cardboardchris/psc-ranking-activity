@@ -1,0 +1,231 @@
+@import "~bootstrap/scss/bootstrap";
+
+// Breakpoints (Bootstrap defaults)
+@mixin bp($sizeValue) {
+    @media screen and (min-width: $sizeValue) {
+        @content;
+    }
+}
+
+$breakpoint__sm: 768px;
+$breakpoint__md: 992px;
+$breakpoint__lg: 1200px;
+$breakpoint__xl: 1366px;
+
+// Colors
+$color__black: #000000;
+$color__gray: #626262;
+$color__gray_dk: #222222;
+$color__gray_lt: #949494;
+$color__white: #ffffff;
+$color__red_md: #BC261A;
+$color__red_dk: #8D1C13;
+
+body {
+    background-color: $color__gray_dk;
+    background-image: url("../assets/bg_repeat.jpg");
+    background-repeat: repeat-y;
+    background-position: 0 5px;
+    background-size: $breakpoint__sm auto;
+    max-width: 1300px;
+
+    @include bp($breakpoint__sm) {
+        background-size: 100.2vw auto;
+        background-position: 0 90vw;
+    }
+
+    @include bp($breakpoint__lg) {
+        background-size: 1300px auto;
+        background-position: calc((100vw - 1300px) / 2) 7px;
+        margin: 0 auto;
+    }
+}
+
+#app {
+    width: $breakpoint__sm;
+    min-height: 690px;
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 255px 0 75px;
+    max-width: 1300px;
+
+    .activity-container {
+
+        font-family: Arial, sans-serif;
+        color: $color__black;
+        margin-bottom: 40px;
+
+        h1 {
+            font: {
+                size: 36px;
+                weight: bold;
+            }
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .btn-primary {
+            font-weight: bold;
+            text-transform: uppercase;
+            color: $color__white;
+            background-color: $color__red_md;
+            border: none;
+            margin: 10px 0;
+            padding: 10px 16px;
+            border-radius: 0;
+
+            &:hover {
+                background-color: $color__red_dk;
+            }
+
+            &:disabled {
+                background-color: $color__gray_lt;
+            }
+        }
+
+        .btn-link {
+            color: $color__red_md;
+            margin: 5px 0;
+            padding: 0;
+
+            &:hover {
+                color: $color__red_dk;
+            }
+        }
+
+        ol, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .input-group-text {
+            padding: 0;
+        }
+
+        input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        // checklist pane
+        .checklist {
+
+            .list-of-items {
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+
+            .accordion {
+
+                .card {
+                    border-radius: 0;
+                }
+
+                &:not(:last-of-type) .card {
+                    border-bottom: none;
+                }
+
+                .card-header {
+                    background-color: transparent;
+                    border-bottom: none;
+                    padding: 10px 10px 10px 15px;
+
+                    label {
+                        margin: 2px 0 0 10px;
+                    }
+                }
+
+                .card-body {
+                    padding-top: 0;
+                    padding-bottom: 0;
+
+                    p {
+                        font-size: 14px;
+                        color: $color__gray;
+                        padding: 0 10px 10px 48px;
+                    }
+                }
+
+                button {
+                    background-color: transparent;
+                    border: none;
+                    padding: 2px 8px;
+                    margin: 0;
+
+                    svg {
+                        transition: .25s ease;
+                        fill: $color__gray_lt;
+                        width: 15px;
+                        height: 15px;
+                    }
+
+                    &.open {
+                        svg {
+                            transform: rotate(-180deg);
+                        }
+                    }
+                }
+            }
+        }
+
+        // ranking pane
+        .ranking {
+            .list-of-items {
+
+                .row {
+                    margin-top: 20px;
+                    margin-bottom: 12px;
+                }
+
+                p {
+                    margin-top: 8px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        // ordered list pane (conclusion)
+        .ordered {
+            ol {
+                margin: 20px 0;
+                padding-left: 18px;
+            }
+
+            .align-right button {
+                padding: 4px 8px;
+                text-transform: none;
+                margin-bottom: 20px;
+            }
+        }
+
+        .align-right {
+            justify-content: flex-end;
+        }
+
+        .copied-notice {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            span {
+                display: inline-block;
+                color: $color__red_md;
+            }
+        }
+    }
+
+    @include bp($breakpoint__sm) {
+        width: auto;
+        height: 90vw;
+        padding: 5% 34% 0 10%;
+    }
+
+    @include bp($breakpoint__lg) {
+        max-width: 1300px;
+        max-height: 1168px;
+    }
+}

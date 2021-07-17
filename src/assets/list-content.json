@@ -1,0 +1,81 @@
+{
+  "checklistItems": [
+    {
+      "id": 1,
+      "header": "Voters should show a photo identification to vote.",
+      "body": "<p>In addition to signature matching and recitation of address, some states also require a photo ID before permitting voting.</p><p>Currently, 21 states require a photo ID and 14 other states require some other type of identification. Photo ID usually means a drivers license, passport, or a government-issued voter card (<a href=\"https://ballotpedia.org/Voter_identification_laws_by_state\" target=\"_blank\">see voter identification laws by state</a>).</p><p>In some states, only a few locations issue the non-driver ID. And a person needs documentation to prove that they&rsquo;re eligible. Those who are elderly, minority, or low-income may not have a birth certificate, especially in the South, as noting such births wasn&rsquo;t a priority or available before the Civil Rights Act of 1964. Native Americans also find they don&rsquo;t have the &ldquo;correct&rdquo; ID to register to vote. And children born to American soldiers stationed overseas must first obtain documentation from the Department of State, for which there&rsquo;s a $50 charge.</p><p>According to a study by the Harvard School of Law, the Missouri Supreme Court noted that the &ldquo;Photo ID Requirement requires payment of money to exercise the right to vote. Those citizens who do not possess the requisite photo ID… must expend money to gather the necessary documentation to obtain it in order to exercise their right to vote.&rdquo; The costs range from $75–$175 per non-voter ID, even though the ID itself is free.</p><p>In November 2018, North Carolina voters approved a constitutional amendment requiring a photo ID to vote. However, the law has not been implemented, as the courts have ruled that it was passed with racially discriminatory intent.</p><p>There are an estimated 30 million Americans without a government-issued identification card, with an estimated 25% of Black Americans lacking the appropriate identification, versus 8% of whites. Research has also concluded that minority voters are more likely to be questioned about their identification, even if it&rsquo;s accurate.</p><p>Producing ID cards also comes at a cost to the states and for voters who need to obtain one.</p>",
+      "checked": false,
+      "rank": 0
+    },
+    {
+      "id": 2,
+      "header": "Voters should be allowed no-excuse absentee voting.",
+      "body": "<p>Traditionally, absentee voting had been reserved for those disabled or out of town on Election Day. However, after the closely contested election of 2000, most states moved to make it easier to vote. Many states are now reversing that trend.</p><p>A proposal in Texas in 2021 would have required some voters to present proof of a disability to vote absentee. In Georgia, a law was passed in early 2021 which halved the amount of time voters had to request an absentee ballot. Georgia also made it illegal to mail absentee ballots to all voters. In 2020, in the midst of the pandemic, the Republican Secretary of State, Brad Raffensperger, mailed absentee ballots to every registered voter in Georgia before the June primary. While this was not done statewide for the November general election, several local Boards of Elections did so. This is now illegal under the new state law, which will almost certainly reduce the number of citizens voting.</p><p>In 2018, a Republican political operative in North Carolina&rsquo;s Ninth Congressional district, Leslie Dowless, collected absentee ballots from voters in the district, a violation of North Carolina law. It was discovered that Leslie Dowless was going door to door collecting absentee ballots and also telling some people that he could just fill in the ballots for them. But these are forbidden under NC state election law. Because he collected several hundred ballots, it wasn't clear exactly who had won, the whole election was disputed. The State Board of Elections eventually decided that a new election had to be held.</p>",
+      "checked": false,
+      "rank": 0
+    },
+    {
+      "id": 3,
+      "header": "States should allow use of ballot drop boxes.",
+      "body": "<p>Oregon began allowing voters to place ballots in a specially designated drop box in 1987. The ballots are first placed in a &ldquo;ballot secrecy envelope&rdquo; and then placed by the voter in the drop box. It&rsquo;s been fast, secure, and convenient for 33 years now. Many more states have since adopted ballot drop boxes, which are forbidden only in Mississippi, Missouri, and Tennessee. Some are under video surveillance.</p><p>In April, 2021, Florida put limits on drop boxes. Now they can only be open when they can be supervised, as opposed to 24 hours a day.</p><p>Georgia&rsquo;s 2021 voting law also restricted the use of drop boxes. During the 2020 election, there were 94 drop boxes across the metro Atlanta area. Under the new law, that number would drop to 23. Additionally, the drop boxes will no longer have 24-hour access, as they must be placed indoors at government buildings and early voting locations. Fulton County even used two RVs to set up mobile voting sites in 2020. That is now illegal.</p><p>Ohio has limited the use of ballot drop boxes, placing only one in each county, regardless of the population size. In contrast, Colorado places one ballot drop box per 30,000 residents; in Washington state, it&rsquo;s one box per 15,000 residents.</p>",
+      "checked": false,
+      "rank": 0
+    },
+    {
+      "id": 4,
+      "header": "States should automatically send ballots to all eligible voters.",
+      "body": "<p>In Oregon, all voting is done by mail and has been for decades. Voters are sent a ballot and can either mail it back or deposit it in a drop box. Each ballot has a unique barcode, and election officials make sure the signature matches the one on the voter&rsquo;s registration. The system is popular, produces higher turnout, and is more accessible.</p>",
+      "checked": false,
+      "rank": 0
+    },
+    {
+      "id": 5,
+      "header": "States should periodically purge their voter rolls.",
+      "body": "<p>In May 2021, Arizona passed a law removing voters from the state&rsquo;s Permanent Early Voting List if they do not vote at least once every two years. This early voting system, to be renamed the Active Early Voting List, is universally popular, and almost 75% of Arizona&rsquo;s voters are on the list. Initial estimates were that 100,000–200,000 voters would be purged from the three million names currently on the list. Voters would still be registered to vote, but they would not receive a ballot by mail.</p><p>Florida now also requires voters to renew their requests for absentee ballots every two years, as opposed to every four years.</p><p>North Carolina began the increased purging of voters who had not voted in a previous election, including American soldiers stationed overseas, in 2014. In 2020 over half a million voters were purged. The League of Women Voters conducts monthly coordination of those who have died with the voter registration rolls to prevent people from using the identity of a deceased person to vote.</p>",
+      "checked": false,
+      "rank": 0
+    },
+    {
+      "id": 6,
+      "header": "All states should provide extensive early voting.",
+      "body": "<p>How many days should states be open for early voting? Should they be required to have weekend voting? What about Sundays, a day popular with Black churches and &ldquo;Souls to the Polls&rdquo; events? (Georgia considered this option in 2021, but ultimately relented to popular pressure.)</p><p>Iowa also passed a new voting law in early 2021 that reduced the time for early voting and shortened the time the polls were open. It also imposed significant fines for technical infractions, such as opening the polling place a few minutes early. Not only could this be unevenly enforced in a partisan way, but it could also discourage the volunteers who make each election possible.</p><p>Georgia&rsquo;s new law also outlawed third parties providing snacks or water to voters waiting in line. Researchers have found that minority voters often wait in longer lines, and many polling places in those communities have been closed, increasing voter numbers and wait times at remaining polling places.</p>",
+      "checked": false,
+      "rank": 0
+    },
+    {
+      "id": 7,
+      "header": "Allow/move to digital voting.",
+      "body": "<p>In Estonia, all citizens over 18 have an encrypted card which they can use to access their medical records, pay taxes, and vote. Polling places remain open for those who wish to cast a physical ballot. But with the encrypted card, anyone can vote during the voting period from home, work, a cafe, or anywhere using a computer. This is the easiest, most accessible voting method of all, and has been shown to be extremely secure due to the encryption technology used.</p>",
+      "checked": false,
+      "rank": 0
+    },
+    {
+      "id": 8,
+      "header": "Voters must physically register to vote.",
+      "body": "<p>The potential voter must come to a specific location, such as a courthouse, and provide some specific documentation, such as a birth certificate and mail, a passport, or the title to their home. At that time a signature is provided, which will be compared to the one used when the voter checks in at a polling place, and the potential voter can also register as a member of a party. In closed-primary states, that will allow them to vote in a party-affiliated primary. The courthouse is only open Monday through Friday, from 9am–5pm. Those born to American service members overseas must obtain documentation from the Department of State. This costs $50 and must be undertaken at least three months before registration closes.</p>",
+      "checked": false,
+      "rank": 0
+    },
+    {
+      "id": 9,
+      "header": "Allow felons to vote.",
+      "body": "<p>After completing a sentence or obtaining parole, many—but not all—states offer felons some process to regain the power to vote. Two states allow people to vote regardless of any criminal conviction: Maine and Vermont. The US is the only democracy which removes or does not automatically restore voting rights to felons after their sentence is served. The process is laborious, usually requiring some legal documents, including a petition to the governor. Approximately 5.2 million Americans are disenfranchised this way. While people from all classes and races are present in American prisons, this affects low-income and minority voters in greater proportions.</p>",
+      "checked": false,
+      "rank": 0
+    },
+    {
+      "id": 10,
+      "header": "No change to restore felon voting rights.",
+      "body": "<p>The present laws, leading to slow or perhaps no restoration of voting rights, continue.</p>",
+      "checked": false,
+      "rank": 0
+    },
+    {
+      "id": 11,
+      "header": "States should not purge voter registration lists.",
+      "body": "<p>As the League of Women Voters already checks for deceased voters, this is not necessary to maintain accurate voter lists. It unnecessarily penalizes those who skip an election.</p>",
+      "checked": false,
+      "rank": 0
+    }
+  ]
+}
